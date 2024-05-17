@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 public class LoginScreen extends PageObject {
 
     @AndroidFindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Close\"]")
-    //
     private WebElement btnClose;
 
     public void clickClose(){
